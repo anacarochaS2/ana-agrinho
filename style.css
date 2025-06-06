@@ -5,7 +5,7 @@
     --primary-color: #1c2652;
     --secondary-color: #515483;
     --text-color: #1f4066;
-    --background-color: #F2E3D5;
+    --background-color: #f8f1e9;
     --button-hover: #061531;
     --font-body: "Chocolate Classical Sans", serif;
     --font-titulo: "Rakkas", serif;
@@ -27,18 +27,22 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
+    text-align: center;
 }
 
 h3 {
     margin-top: 25px;
+    text-align: center;
 }
 
 p {
     margin-top: 20px;
+    text-align: center;
 }
 
 img {
-    max-width: 90%;
+    max-width: 70%;
+    text-align: center;
 }
 
 /* código omitido */
@@ -64,3 +68,35 @@ img {
         width: 100%;
     }
 }
+header {
+    background-color: #261d55;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  nav {
+    background-color: #5c43a0;
+    text-align: center;
+    padding: 10px;
+  }
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  h2 {
+    color: #1c1b5e;
+  }
+  footer {
+    background-color: #3f2e7d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
